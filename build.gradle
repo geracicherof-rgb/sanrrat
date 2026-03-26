@@ -1,11 +1,1 @@
-plugins {
-    id 'java'
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'org.xerial.sqlite-jdbc:sqlite-jdbc:3.36.0.3'
-}
+dependencies {\n    implementation 'org.openjfx:javafx-controls:16'\n    implementation 'org.openjfx:javafx-fxml:16'\n    implementation 'org.xerial.sqlite-jdbc:3.34.0'\n    // Include standard Java libraries as needed\n    implementation 'javax.inject:javax.inject:1'  // Just an example\n}
